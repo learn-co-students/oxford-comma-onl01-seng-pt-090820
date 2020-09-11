@@ -20,9 +20,16 @@
 #     end
 # end
 
+# def oxford_comma(array)
+#     unless array.count == 1
+#         array[-1] = "and " + array[-1]
+#     end
+#     array.count >= 3 ? array.join(", ") : array.join(" ")
+# end
+
 def oxford_comma(array)
-    unless array.count == 1
-        array[-1] = "and " + array[-1]
+    case array
+        when .count == 1
+            array.join
     end
-    array.count >= 3 ? array.join(", ") : array.join(" ")
 end
