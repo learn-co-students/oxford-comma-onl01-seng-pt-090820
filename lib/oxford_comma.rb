@@ -11,14 +11,14 @@
 #     end
 # end
 
-# def oxford_comma(array)
-#     if array.count < 3
-#         array.join(" and ")
-#     else
-#         array[-1] = "and "+ array[-1]
-#         array.join(", ")
-#     end
-# end
+def oxford_comma(array)
+    if array.count < 3
+        array.join(" and ")
+    else
+        array[-1] = "and "+ array[-1]
+        array.join(", ")
+    end
+end
 
 # def oxford_comma(array)
 #     unless array.count == 1
@@ -27,7 +27,8 @@
 #     array.count >= 3 ? array.join(", ") : array.join(" ")
 # end
 
-def oxford_comma(array)
-    array.count != 1 ? array[-1] = "and " + array[-1] : array == array
-    array.count >= 3 ? array.join(", ") : array.join(" ")
-end
+# def oxford_comma(array)
+#     array.count != 1 ? array[-1] = "and " + array[-1] : array == array
+#     array.count >= 3 ? array.join(", ") : array.join(" ")
+# end
+
