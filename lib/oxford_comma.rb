@@ -7,6 +7,7 @@ def oxford_comma(array)
   else 
   # binding.pry
   array[-1].insert(0, "and " )
+  array.join (", ")
  end 
 end 
 # oxford_comma(["kiwi"])).to eq("kiwi")
