@@ -2,13 +2,16 @@
 
 def oxford_comma(name)
   name.join 
+# binding pry
 
-#{a.join}
-#{b.join(" and ")}
+# name.join(" and ")
+# b.join 
+
 end 
 
 
-
+# [ "a", "b", "c" ].join        #=> "abc"
+# [ "a", "b", "c" ].join("-")   #=> "a-b-c"
 
 #   counter = 0 
 #   while counter < 3 
@@ -17,5 +20,4 @@ end
 # end 
 # end 
 # end 
-
 
