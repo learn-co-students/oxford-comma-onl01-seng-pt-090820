@@ -4,8 +4,9 @@ def oxford_comma(name)
   name.join 
 # binding pry
 
-# name.join(" and ")
-# b.join 
+
+[name, a].join(" and ")
+[name, a, b].join (", ")
 
 end 
 
