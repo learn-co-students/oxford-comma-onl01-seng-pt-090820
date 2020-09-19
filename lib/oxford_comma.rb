@@ -1,5 +1,5 @@
 def oxford_comma(name)
-  name.to_s 
+  name.join 
 end
 
 
