@@ -1,4 +1,4 @@
-def oxford_comma([name])
+def oxford_comma(name)
   var answer = name.to_s 
 end
 
