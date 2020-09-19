@@ -1,5 +1,5 @@
 def oxford_comma(name)
-  var answer = name.to_s 
+  answer = name.to_s 
 end
 
 
