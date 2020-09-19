@@ -6,4 +6,4 @@ elseif array.length = 2
   puts  [array, a, b].join (", ")
  else [array, b, c].insert(2, "and")
 end 
-
+end 
