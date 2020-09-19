@@ -1,24 +1,9 @@
-# require pry  
-
 def oxford_comma(name)
   name.join 
-# binding pry
-
-
-[name, a].join(" and ")
-[name, a, b].join (", ")
-
+  if array.length = 1
+  puts  [name, "b"].join(" and ")" 
+elseif array.length = 2
+  puts  [name, a, b].join (", ")"
+  [name, b, c].insert(2, "and")
 end 
-
-
-# [ "a", "b", "c" ].join        #=> "abc"
-# [ "a", "b", "c" ].join("-")   #=> "a-b-c"
-
-#   counter = 0 
-#   while counter < 3 
-#   array.join
-#   counter += 1 
-# end 
-# end 
-# end 
 
