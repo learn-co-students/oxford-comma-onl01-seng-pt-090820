@@ -1,9 +1,9 @@
-def oxford_comma(name)
-  name.join 
+def oxford_comma(array)
+  array.join 
   if array.length = 1
-  puts  [name, "b"].join(" and ")" 
+  puts  [array, "b"].join(" and ")" 
 elseif array.length = 2
-  puts  [name, a, b].join (", ")"
-  [name, b, c].insert(2, "and")
+  puts  [array, a, b].join (", ")"
+  [array, b, c].insert(2, "and")
 end 
 
