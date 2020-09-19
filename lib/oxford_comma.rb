@@ -1,5 +1,5 @@
-def oxford_comma(array)
-  puts array.to_s 
+def oxford_comma([name])
+  var answer = name.to_s 
 end
 
 
