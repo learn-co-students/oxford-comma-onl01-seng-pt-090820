@@ -1,12 +1,13 @@
+# require pry  
+
 def oxford_comma(name)
   name.join 
-end
+
+#{a.join}
+#{b.join(" and ")}
+end 
 
 
-#   if array == [1] 
-#     puts  #{first.join(", ")}
-#   second
-# end 
 
 
 #   counter = 0 
